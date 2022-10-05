@@ -27,7 +27,7 @@ main h1 {
   margin: auto;
   margin-bottom: 25px;
 }
-#boton1 {
+#correr {
   font-weight: bold;
   background-color: #fafad2;
   margin: auto;
@@ -47,4 +47,14 @@ img {
   width: 300px;
   height: 300px;
   border-radius: 15px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 90px;
+    border: solid 1px #eee;
+    height: 25px;
+    font-weight: bold;
+    padding: 9px;
+
 }
