@@ -5,26 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Cronometro ciclista</title>
+    <link rel="stylesheet" href="temp.css">
+    <title>Cronometro</title>
 </head>
 
 <body>
-    <main>
-        <h1>Cronometro</h1>
-        <div class="contenedor">
-            <span id="cronometro">0</span>
-            <input type="button" id="correr" value="detener">
+    <div class="contenedor">
+        <div class="container">
+            <label class="container__time" for="inicial">CUENTA REGRESIVA EN SEGUNDOS</label>
+            <div class="container__input">
+                <input type="number" id="inicial" class="tiempoInicial" placeholder="0"
+                    title="Digita tiempo en segundos">
+                <button class="container__btn" id="iniciar">INICIAR</button>
+                <!-- <button class="container__btn" id="detener">PAUSAR</button> -->
+            </div>
+
+            <div class="time" id="tiempo">0</div>
         </div>
-        <figure>
-            <img src="./corre.jpg" alt="">
-        </figure>
-    </main>
-    <script src="script.js"></script>
+    </div>
+    <script src="temp.js"></script>
 </body>
 <footer>
     <p> Elaborado por Omar Aleiser Alvarez</p>
 
 </footer>
-
 </html>
