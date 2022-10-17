@@ -8,7 +8,7 @@ function iniciar() {
 function contador(inicial) {
   if (inicial <= 0) {
     document.getElementById("tiempo").innerText = "Finalizado";
-    'tiempo'.style.color= 'red'
+    inical.style.color= 'red'
     
   } else {
     document.getElementById("tiempo").innerText = inicial;
